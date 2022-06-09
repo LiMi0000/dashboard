@@ -9,7 +9,7 @@ import {
   Toolbar,
 } from '@syncfusion/ej2-react-grids';
 
-import { contextMenuItems, employeesData, employeesGrid } from '../data/dummy';
+import { employeesData, employeesGrid } from '../data/dummy';
 import { Header } from '../components';
 
 const Employees = () => {
