@@ -29,6 +29,9 @@ import { useStateContext } from './contexts/ContextProvider';
 const App = () => {
   // const activeMenu = true;
   const { activeMenu } = useStateContext();
+  useEffect(() => {
+    document.title = 'Dashboard';
+  });
   return (
     <div>
       <BrowserRouter>
